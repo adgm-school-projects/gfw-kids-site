@@ -1,0 +1,54 @@
+.thin {
+    max-width:200px;
+	margin-top:-30px;
+}
+
+.carousel > .window {
+    overflow: hidden;
+    position: relative;
+    height: 490px;
+	margin-bottom:10px;
+	width:250px;
+}
+
+/*
+    This is the item wrapper,
+    it will be animated.
+*/
+.carousel ul {
+    list-style: none;
+    height: 10000px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding: 0px;
+}
+
+/*
+    These are the items
+*/
+.carousel li {
+    margin: 10px 0 0;
+	border-radius:7px;
+	box-shadow: 2px 2px #666;
+}
+
+.artlist li {
+		border: 7px solid #06F;	
+}
+.prev, .next {
+    font-size: 30px;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    margin-left: -15px;
+}
+.carousel li:first-child {
+    margin: 0;
+}
+
+.glyphicon {
+	font-weight:900;
+	color:white;
+	text-shadow:1px 1px #333;
+}

@@ -1,0 +1,214 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: 'Metrophobic', sans-serif;	
+}
+
+.logobox {
+	position:relative;
+	width:200px;	
+}
+
+.breadcrumbs {
+	position: relative;
+	right:15%;
+	background: #fff;
+	padding:3px;
+}
+
+.jumbotron {
+	background-image:url("../images/food.png");	
+	padding: 37px 0 10px 0;
+}
+
+.games {
+	background-image:url("../images/cubes.png");	
+}
+
+.art {
+	background-image:url("../images/restaurant.png");
+}
+
+.art, .games, .video {
+		min-height:930px;
+		margin:0;	
+}
+
+
+.secondary-content {
+	background-image:url("../images/restaurant.png");
+	min-height:500px;
+}
+
+.mainimg {
+	float:left;
+}
+
+.subimg>a>img:first-child {
+	margin-bottom:7px;
+}
+
+
+.navbar-brand>img:hover {
+	opacity:0.9;
+}
+
+.navbar-nav>li>a {
+	max-width:160px;	
+}
+
+.whitetext {
+	color: white;
+	text-shadow:1px 1px #333;	
+}
+
+.icontext {
+	position: absolute; 
+	top:120px; 
+	left:10px;	
+}
+
+footer {
+	position:relative;	
+	bottom:0;
+	padding:10px;
+}
+
+.footerlinks {
+	position:relative;
+	left:50%;	
+}
+
+.scontent ul li {
+	float: left;
+	list-style: none;
+	margin:10px 20px 15px 0;
+}
+
+.dropdown-menu>li>a {
+	font-size:28px;
+	font-weight:900;	
+}
+
+@media screen and (max-width:767px){
+	.nav>li>a{display:inline-block} 
+	.nav>li {float:left}
+	.navbar-brand>img {position:relative;}
+	
+	}
+	
+/**********************************************/
+/*				BUTTON SPRITES				 */
+/********************************************/
+
+/* Art Button */
+
+a.artbutton span {
+  background: transparent url("../images/artbutton_sprite.png") no-repeat 0 0;
+  display: block;
+  padding: 0 143px 57px 0;
+
+}
+
+a.artbutton {
+  background: transparent url("../images/artbutton_sprite.png") no-repeat top right;
+  display: block;
+  float: left;
+  height: 57px;
+}
+
+a.artbutton:hover span {
+  background-position: 0 -57px;
+  padding: 0 143px 61px 0;
+}
+
+
+/* Games Button */
+
+a.gamesbutton span {
+  background: transparent url("../images/gamesbutton_sprite.png") no-repeat 0 0;
+  display: block;
+  padding: 0 143px 57px 0;
+
+}
+
+a.gamesbutton {
+  background: transparent url("../images/gamesbutton_sprite.png") no-repeat top right;
+  display: block;
+  float: left;
+  height: 57px;
+}
+
+a.gamesbutton:hover span {
+  background-position: 0 -57px;
+  padding: 0 143px 61px 0;
+}
+
+/* Video Button */
+
+a.videobutton span {
+  background: transparent url("../images/videobutton_sprite.png") no-repeat 0 0;
+  display: block;
+  padding: 0 143px 57px 0;
+
+}
+
+a.videobutton {
+  background: transparent url("../images/videobutton_sprite.png") no-repeat top right;
+  display: block;
+  float: left;
+  height: 57px;
+}
+
+a.videobutton:hover span {
+  background-position: 0 -57px;
+  padding: 0 143px 61px 0;
+}
+
+/* Blog Button */
+
+a.blogbutton span {
+  background: transparent url("../images/blogbutton_sprite.png") no-repeat 0 0;
+  display: block;
+  padding: 0 143px 57px 0;
+
+}
+
+a.blogbutton {
+  background: transparent url("../images/blogbutton_sprite.png") no-repeat top right;
+  display: block;
+  float: left;
+  height: 57px;
+}
+
+a.blogbutton:hover span {
+  background-position: 0 -57px;
+  padding: 0 143px 61px 0;
+}
+
+/* Music Button */
+
+a.musicbutton span {
+  background: transparent url("../images/musicbutton_sprite.png") no-repeat 0 0;
+  display: block;
+  padding: 0 143px 57px 0;
+
+}
+
+a.musicbutton {
+  background: transparent url("../images/musicbutton_sprite.png") no-repeat top right;
+  display: block;
+  float: left;
+  height: 57px;
+}
+
+a.musicbutton:hover span {
+  background-position: 0 -57px;
+  padding: 0 143px 61px 0;
+}
+
+
+a.activebutton span {
+  background-position: 0 -57px;
+  padding: 0 143px 61px 0;
+}
